@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  Bloodhound:
+  - apiVersion: v2
+    appVersion: 5.3.1
+    created: "2025-04-18T04:26:51.802963009Z"
+    description: A Helm Chart for deploying BloodHound on Kubernetes
+    digest: f1e2416d6ebe163772bb1b401f7be425391f60551eabd9f59da2d5ecf4fd3376
+    name: Bloodhound
+    type: application
+    urls:
+    - https://github.com/jbrander/helm-charts/releases/download/Bloodhound-0.1.0/Bloodhound-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-04-18T04:26:51.802980682Z"
