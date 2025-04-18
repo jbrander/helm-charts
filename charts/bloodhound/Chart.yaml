@@ -16,7 +16,7 @@
 
 apiVersion: v2
 name: Bloodhound
-description: A Helm Chart for deploying BloodHound on Kubernetes 
+description: A Helm Chart for deploying BloodHound on Kubernetes
 type: application
-version: 0.1.0
+version: 0.2.0
 appVersion: "5.3.1"
