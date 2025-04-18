@@ -20,6 +20,10 @@ kind: Ingress
 metadata:
   name: {{ .Values.bloodhound.name }}-ingress
   namespace: {{ .Values.namespace }}
+  {{- with .Values.bloodhound.ingress.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
 spec:
   rules:
   - host: {{ .Values.bloodhound.ingress.host }}

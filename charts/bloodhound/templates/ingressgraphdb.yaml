@@ -20,6 +20,10 @@ kind: Ingress
 metadata:
   name: {{ .Values.graphdb.name }}-ingress
   namespace: {{ .Values.namespace }}
+  {{- with .Values.graphdb.ingress.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
 spec:
   rules:
   - host: {{ .Values.graphdb.ingress.host }}

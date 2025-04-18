@@ -90,6 +90,7 @@ graphdb:
     enabled: false
     host: graphdb.example.com
     path: /
+    annotations: {}
   tls:
     enabled: true
     customCert: false
@@ -120,6 +121,7 @@ bloodhound:
     enabled: true
     host: bloodhound.example.com
     path: /
+    annotations: {}
   tls:
     enabled: true
     customCert: false
